@@ -49,20 +49,20 @@ for (let i = 0; i <= 20; i++) {
 }
 
 //6
-let username = 123456;
-let password = 123456789;
+let username= 123456;
+let password =12345678;
 
-if (username.length != [6] && password.length != [8]) {
-  console.log("yes");
-} else if (username.length == [7] && password.length == [8]) {
-  console.log("no");
-}
 
-//7
-let i = 0;
-while (i <= 20) {
-  console.log(i);
-  i++;
+if (username.length >6 &&  password.length >=8){
+
+    console.log('yes');
+
+
+}else {
+
+    console.log('no')
+
+
 }
 //8
 for (let i = 20; i >= 0; i--) {
